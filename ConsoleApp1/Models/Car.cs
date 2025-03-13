@@ -14,7 +14,7 @@ namespace CarRent.Models
         public int Year { get; set; }
         public bool IsAvailable { get; set; }
         public decimal PricePerDay { get; set; }
-
+       
         public Car(string licensePlate, string brand, string model, int year, bool isAvailable, decimal pricePerDay)
         {
             LicensePlate = licensePlate;
